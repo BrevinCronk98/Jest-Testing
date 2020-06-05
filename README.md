@@ -24,15 +24,12 @@ cd Jest-Testing(or the file name you created for the main directory of the downl
 ```
 code .
 ```
-4. If you need to install the REPL dotnet script enter the following command in your terminal: 
+
+4. To install the necessary dependencies and start a local host:
 ```
-dotnet tool install -g dotnet-script
-```
-5. To install the necessary dependencies and start a local host:
-```
-dotnet restore
-dotnet build
-dotnet run
+npm install
+npm run build
+npm run start
 ```
 
 #
